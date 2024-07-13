@@ -1,9 +1,9 @@
 library metaxperts_dynamic_apis;
+
 String loginApi = "http://103.149.32.30:8080/ords/metaxperts/login1/get/";
 String accountApi= "http://103.149.32.30:8080/ords/metaxperts/accounts/get/";
-String dumyaccountApi= "http://103.149.32.30:8080/ords/metaxperts/accounts/get/";
-String newccounttimeApi = "http://10.149.32.30:8080/ords/metaxperts/newaccounttime/get/";
-
+String dummyAccountApi= "http://103.149.32.30:8080/ords/metaxperts/accounts/get/";
+String newAccountTimeApi = "http://10.149.32.30:8080/ords/metaxperts/newaccounttime/get/";
 String balance = "http://103.149.32.30:8080/ords/metaxperts/allbalance/get/";
 String recoveryForm = "http://103.149.32.30:8080/ords/metaxperts/recovery1/get/";
 String city ="https://apex.oracle.com/pls/apex/metaxpertss/city/get/";
