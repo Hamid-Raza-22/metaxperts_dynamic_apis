@@ -1,13 +1,15 @@
 library metaxperts_dynamic_apis;
 
-String attendanceApi ="http://103.149.32.30:8080/ords/metaxperts/attendance/post/";
-String attendanceOutApi ="http://103.149.32.30:8080/ords/metaxperts/attendanceout/post/";
-String locationApi ="http://103.149.32.30:8080/ords/metaxperts/location/post/";
-String orderMasterApi ="http://103.149.32.30:8080/ords/metaxperts/ordermater/post/";
-String orderDetailsApi ="http://103.149.32.30:8080/ords/metaxperts/orderdetail/post/";
-String shopVisitApi ="http://103.149.32.30:8080/ords/metaxperts/report/post/";
-String stockCheckItemsApi ="http://103.149.32.30:8080/ords/metaxperts/shopvisit/post/";
-String addShopApi ="http://103.149.32.30:8080/ords/metaxperts/addshop/post/";
-String returnFormApi ="http://103.149.32.30:8080/ords/metaxperts/returnform/post/";
-String returnFormDetailsApi ="http://103.149.32.30:8080/ords/metaxperts/returnformdetail/post/";
-String recoveryFormApi ="http://103.149.32.30:8080/ords/metaxperts/recoveryform/post/";
+import '../ip_addresses/IP_addresses.dart';
+
+String attendanceApi ="$IP_Address/attendance/post/";
+String attendanceOutApi ="$IP_Address/attendanceout/post/";
+String locationApi ="$IP_Address/location/post/";
+String orderMasterApi ="$IP_Address/ordermater/post/";
+String orderDetailsApi ="$IP_Address/orderdetail/post/";
+String shopVisitApi ="$IP_Address/report/post/";
+String stockCheckItemsApi ="$IP_Address/shopvisit/post/";
+String addShopApi ="$IP_Address/addshop/post/";
+String returnFormApi ="$IP_Address/returnform/post/";
+String returnFormDetailsApi ="$IP_Address/returnformdetail/post/";
+String recoveryFormApi ="$IP_Address/recoveryform/post/";
