@@ -37,3 +37,16 @@ String refProductsApi = "http://103.149.32.30:8080/ords/metaxperts/newproductget
 String refShopDetails = "http://103.149.32.30:8080/ords/metaxperts/newshopp1/get/";
 String refOrderBookingStatus = "http://103.149.32.30:8080/ords/metaxperts/newstatusgettime/get/";
 String refBrandsApi ="http://103.149.32.30:8080/ords/metaxperts/newbrands/get/";
+
+// Alternative Refresh Server APIs for GET
+String altRefLoginApi = "http://103.149.32.30:8080/ords/metaxperts/logindata/get/";
+String altRefAccountApi= "http://103.149.32.30:8080/ords/metaxperts/newaccounttime/get/";
+String altRefBalance = "http://103.149.32.30:8080/ords/metaxperts/totalbalance/get/";
+String altRefRecoveryForm = "http://103.149.32.30:8080/ords/metaxperts/newaccounttime/get/";
+String altRefCity ="http://103.149.32.30:8080/ords/metaxperts/newcitties/get/";
+String altRefOrderDetails= "http://103.149.32.30:8080/ords/metaxperts/newdetailsgettime/get/";
+String altRefOrderMaster = "http://103.149.32.30:8080/ords/metaxperts/newmastergettime/get/";
+String altRefProductsApi = "http://103.149.32.30:8080/ords/metaxperts/newproductget/get/";
+String altRefShopDetails = "http://103.149.32.30:8080/ords/metaxperts/newshopp1/get/";
+String altRefOrderBookingStatus = "http://103.149.32.30:8080/ords/metaxperts/newstatusgettime/get/";
+String altRefBrandsApi ="http://103.149.32.30:8080/ords/metaxperts/newbrands/get/";
