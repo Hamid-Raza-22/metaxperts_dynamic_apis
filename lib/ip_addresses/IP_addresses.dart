@@ -7,7 +7,7 @@ import 'package:http/http.dart' as http;
 
 
 
-Future<String> getIpAddress() async {
+Future<void> getIpAddress() async {
   const String server1 = "http://103.149.32.30:8080/ords/metaxperts";
   const String server2 = "https://apex.oracle.com/pls/apex/metaxpertss";
 
