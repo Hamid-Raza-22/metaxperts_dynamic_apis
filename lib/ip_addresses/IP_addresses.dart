@@ -1,11 +1,7 @@
-
 import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
 
- String IP_Address="http://103.149.32.30:8080/ords/metaxperts";
- // String IP_Address2= "https://apex.oracle.com/pls/apex/metaxpertss";
-
-
+String IP_Address = '';
 
 Future<void> getIpAddress() async {
   const String server1 = "http://103.149.32.30:8080/ords/metaxperts";
@@ -14,7 +10,8 @@ Future<void> getIpAddress() async {
   try {
     final response1 = await http.get(Uri.parse(server1));
     if (response1.statusCode == 200) {
-      IP_Address=  "http://103.149.32.30:8080/ords/metaxperts";
+      IP_Address = server1;
+      return;
     }
   } catch (e) {
     if (kDebugMode) {
@@ -25,7 +22,8 @@ Future<void> getIpAddress() async {
   try {
     final response2 = await http.get(Uri.parse(server2));
     if (response2.statusCode == 200) {
-      IP_Address="https://apex.oracle.com/pls/apex/metaxpertss";
+      IP_Address = server2;
+      return;
     }
   } catch (e) {
     if (kDebugMode) {
@@ -33,5 +31,7 @@ Future<void> getIpAddress() async {
     }
   }
 
-  throw Exception('Both servers are unavailable');
+  if (IP_Address.isEmpty) {
+    throw Exception('Both servers are unavailable');
+  }
 }
