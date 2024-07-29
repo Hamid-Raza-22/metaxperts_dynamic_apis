@@ -55,4 +55,5 @@ String altRefShopDetails = "$Alt_IP_Address/newshopp1/get/";
 String altRefOrderBookingStatus = "$Alt_IP_Address/newstatusgettime/get/";
 String altRefBrandsApi ="$Alt_IP_Address/newbrands/get/";
 
+
 String bookerStatusGetApi ="$Alt_IP_Address/bookerattendanceStatus/get/";
