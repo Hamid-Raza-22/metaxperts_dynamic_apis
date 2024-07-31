@@ -57,3 +57,5 @@ String altRefBrandsApi ="$Alt_IP_Address/newbrands/get/";
 
 
 String bookerStatusGetApi ="$IP_Address/bookerattendanceStatus/get/";
+String shopStatusGetApi ="$IP_Address/shopnames/get/";
+String attendanceStatusGetApi ="$IP_Address/attendancedata/get/";
