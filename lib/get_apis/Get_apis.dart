@@ -56,8 +56,10 @@ String altRefOrderBookingStatus = "$Alt_IP_Address/newstatusgettime/get/";
 String altRefBrandsApi ="$Alt_IP_Address/newbrands/get/";
 
 
+
 String bookerStatusGetApi ="$IP_Address/bookerattendanceStatus/get/";
 String smStatusGetApi ="$IP_Address/smstatus/get/";
+String smBookerStatusGetApi ="$IP_Address/smbookerstatus/get/";
 String nsmStatusGetApi ="$IP_Address/nsmstatus/get/";
 String rsmShopStatusGetApi ="$IP_Address/shopnames/get/";
 String smShopStatusGetApi ="$IP_Address/smshops/get/";
