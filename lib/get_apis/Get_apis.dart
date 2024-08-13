@@ -13,6 +13,9 @@ String orderDetails= "$IP_Address/detailsget/get/";
 String orderMaster = "$IP_Address/masterget1/get/";
 String productsApi = "$IP_Address/product1/get/";
 String shopDetails = "$IP_Address/shopp1/get/";
+String shopDetails2 = "$IP_Address/shopp2/get/";
+String shopDetails3 = "$IP_Address/shopp3/get/";
+String shopDetails4 = "$IP_Address/shopp4/get/";
 String orderBookingStatus = "$IP_Address/statusget1/get/";
 String brandsApi ="$IP_Address/brand1/get/";
 
